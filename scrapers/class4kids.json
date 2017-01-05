@@ -1,0 +1,46 @@
+{
+  "url": "\\w+\\.\\w+",
+  "elements": {
+    "class_name": {
+      "selector": "//span[@itemprop='name']"
+    },
+    "class_by": {
+      "selector": "//a[@class='show-as-link']"
+    },
+    "class_category": {
+      "selector": "//li[@class='class-detail-info-item'][1]",
+      "attribute": "text"
+    },
+    "class_venue": {
+      "selector": "//strong[@itemprop='name']",
+      "attribute": "text"
+    },
+    "class_street": {
+      "selector": "//span[@itemprop='streetAddress']",
+      "attribute": "text"
+    },
+    "class_locality": {
+      "selector": "//li[@class='class-detail-info-item'][2]",
+      "attribute": "text"
+    },
+    "class_postalcode": {
+      "selector": "//span[@itemprop='postalCode']",
+      "attribute": "text"
+    },
+    "class_age": {
+      "selector": "//span[@itemprop='typicalAgeRange']",
+      "attribute": "content"
+    },
+    "class_price": {
+      "selector": "//li[@class='class-detail-info-item'][4]",
+      "attribute": "text"
+    },
+    "class_next": {
+      "selector": "//time[@itemprop='startDate']",
+      "attribute": "content"
+    },
+    "class_description": {
+      "selector": "//span[@itemprop='description']"
+    }
+  }
+}
